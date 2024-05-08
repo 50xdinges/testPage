@@ -15,9 +15,9 @@
     </h1> 
       
     <h4> 
-        DEVELOPMENT
+        MAIN
     </h4> 
-      
+      nog meer onzin
     <?php
         if(array_key_exists('button1', $_POST)) { 
             button1(); 

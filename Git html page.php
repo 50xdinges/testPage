@@ -25,12 +25,18 @@
         else if(array_key_exists('button2', $_POST)) { 
             button2(); 
         } 
+        else if(array_key_exists('button3', $_POST)) { 
+            button3(); 
+        } 
 
         function button1() { 
             echo "This is Button1 that is selected"; 
         } 
         function button2() { 
             echo "This is Button2 that is selected"; 
+        } 
+        function button3() { 
+            echo "This is Button3 that is selected"; 
         } 
     ?> 
   
@@ -40,6 +46,9 @@
           
         <input type="submit" name="button2"
                 class="button" value="Button2" />
+
+        <input type="submit" name="button3"
+                class="button" value="button3" />
     </form> 
 </body> 
   

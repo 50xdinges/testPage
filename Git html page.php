@@ -15,7 +15,7 @@
     </h1> 
       
     <h4> 
-        MAIN
+        DINGES
     </h4> 
       nog meer onzin
     <?php

@@ -26,7 +26,7 @@
             button2(); 
         } 
         else if(array_key_exists('button3', $_POST)) { 
-            button2(); 
+            button3(); 
         } 
 
         function button1() { 
@@ -46,6 +46,7 @@
           
         <input type="submit" name="button2"
                 class="button" value="Button2" />
+
         <input type="submit" name="button3"
                 class="button" value="button3" />
     </form> 
